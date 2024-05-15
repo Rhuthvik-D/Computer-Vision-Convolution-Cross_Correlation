@@ -19,3 +19,9 @@ The main reason for this project is to have a deep understanding of how a convol
     ![Image with all edges detected](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/2D_filtered_camera.png)
     > This image contains all the possible edges from the input.
       #### Blurring
+
+      <ins>**Blur using 1D filters**</ins>
+      Consider G<sub>x</sub> and G<sub>y</sub> to be respective Gaussian 1D filters. Convolving one of these filters with the input image, the output will be a respective blur. $$X_{blur} = G_x * InputImg$$ $$Y_{blur} = G_y * InputImg$$ 
+      > These operations will result in respective blurred images.
+      ![Image with blurs](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/Camera_X_Derivative_Gauss_image.jpg)
+      
