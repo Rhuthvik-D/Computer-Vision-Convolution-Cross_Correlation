@@ -23,5 +23,13 @@ The main reason for this project is to have a deep understanding of how a convol
       <ins>**Blur using 1D filters**</ins>
       Consider G<sub>x</sub> and G<sub>y</sub> to be respective Gaussian 1D filters. Convolving one of these filters with the input image, the output will be a respective blur. $$X_{blur} = G_x * InputImg$$ $$Y_{blur} = G_y * InputImg$$ 
       > These operations will result in respective blurred images.
-      ![Image with blurs](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/Camera_X_Derivative_Gauss_image.jpg)
+      
+      ![Image with X blurs](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/Gaussian_X_filtered.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      ![Image with Y blurs](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/Gaussian_Y_filtered.png)
+
+      > The Gaussian Horizontal Filtered is X<sub>blur</sub>. The Gaussian Vertical Filtered is Y<sub>blur</sub>.
+      
+      - **Similar to finding all the edges of the image, convolving either of the blurred images with the other Gaussian 1D kernel will result in a Gaussian Blur of the whole image.**
+
+       ![Gaussian Blurred image](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/Gaussian_X_Y_Full_filtered.png)
       
