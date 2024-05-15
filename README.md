@@ -10,5 +10,12 @@ The main reason for this project is to have a deep understanding of how a convol
     ### Edge Detection
 
     Building a function that takes in two 2D arrays as input - a filter and an image. Convolution is performed on these image arrays to output a filtered image. Instead of using a predefined function `cv2.filter2D` or `cv2.GaussianBlur` or `cv2.medianBlur`. Padding is an intermediary step performed as and when an issue with the input image's boundary is missed from convolving. Padding is used so no image information is lost. Both Horizontal and Vertical edges can be found with a different set of kernels for each kind of edges. these kernels are called 1D Filters.
-    ![Image of Horizontal and Vertical Edge detected image](/Resulting photos/DER_X_Y_CAMERA.png)
-  
+
+    ![Image with Individual Edges detected](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/DER_X_Y_CAMERA.png)
+    > The X_derivative Image depicts the detected horizontal edges from the image.
+    > The Y_derivative Image Depicts the detected vertical edges from the image.
+
+    On one of the either images, if another edge detection is performed, we get all the possible edges of the image, in essence, performing a convolution with a vertical kernal on the `X_derivative image`, the output will be depicting all the possible edges in the image.
+    ![Image with all edges detected](https://github.com/Rhuthvik-D/Computer-Vision-Convolution-Cross_Correlation/blob/main/Resulting%20photos/2D_filtered_camera.png)
+    > This image contains all the possible edges from the input.
+      #### Blurring
